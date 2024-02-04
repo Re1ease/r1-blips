@@ -1,10 +1,9 @@
-fx_version 'adamant'
+fx_version "cerulean"
+game "gta5"
+author "re1ease"
+version "1.0.0"
+lua54 "yes"
 
-game 'gta5'
-author "Re1ease"
-version '1.0.0'
-
-client_scripts {
-	'config.lua',
-	'client/main.lua'
-}
+shared_script 'shared/*.lua'
+client_script 'client/*.lua'
+server_script 'server/*.lua'
